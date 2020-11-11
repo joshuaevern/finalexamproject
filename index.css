@@ -1,0 +1,84 @@
+body{
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+
+.background{
+    background-image: url("login_img.jpg");
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.form{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 25%;
+    transform: translate(-50%, -50%);
+    padding: 20px;
+    
+}
+.submit2[type=submit]{
+    height: 75px;
+    width: 150px;
+    color: #fff;
+    font-size: 15px;
+    background: rgb(94, 19, 41);
+    cursor: pointer;
+    border-radius: 25px;
+    border: none;
+    outline: none;
+    margin-top: 5%;
+    position:absolute;
+    transition: .5s ease;
+    top: 25px;
+    left: 200px;
+    right: -250px;
+    bottom: -15px;
+    
+}
+
+.submit1[type=submit]{
+    height: 75px;
+    width: 150px;
+    color: #fff;
+    font-size: 15px;
+    background: rgb(94, 19, 41);
+    cursor: pointer;
+    border-radius: 25px;
+    border: none;
+    outline: none;
+    margin-top: 5%;
+    position:absolute;
+    transition: .5s ease;
+    top: 25px;
+    left: 0px;
+    right: -250px;
+    bottom: -15px;
+}
+
+footer {
+    display: block;
+    text-align: center;
+    padding: 5px;
+    color: #eee;
+    margin-top: 250px;
+    display: block; 
+    text-align: center;
+}
+
+.intro {
+    background: #fdfdfd;
+     padding: 15px;
+     text-align: center;
+
+}
+
+a{
+    color: black;
+}
