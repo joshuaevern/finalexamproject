@@ -1,0 +1,83 @@
+body, html{
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.background{
+    background-image: url("login_img.jpg");
+    filter: blur(3px);
+    -webkit-filter: blur(3px);
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+
+.formbox{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 25%;
+    transform: translate(-50%, -50%);
+    padding: 20px;
+    background: rgba(85, 85, 85, 0.5);
+}
+
+input{
+    width: 95%;
+    margin-bottom: 20px;
+}
+
+label{
+    font-size: 18px;
+}
+
+.submit[type=submit]{
+    height: 40px;
+    width: 80px;
+    color: #fff;
+    font-size: 15px;
+    background: rgb(94, 19, 41);
+    cursor: pointer;
+    border-radius: 25px;
+    border: none;
+    outline: none;
+    margin-top: 5%;
+    
+}
+.formbox .radio-box {
+    flex: 5 1;
+    width: 75%;
+    margin: 1%;
+    padding: 0%;
+  }
+  .formbox .radio-box p {
+    font-weight: bold;
+    width: 100%;
+    margin: 1%;
+    padding: 0%;
+  }
+  .formbox .radio-box input {
+    width: 10%;
+  }
+  .formbox .radio-box input + label {
+    width: 30%;
+    font-weight: normal;
+
+}
+
+a{
+    color: rgb(233, 235, 247);
+    font-family: Arial, Helvetica, sans-serif;
+}
+.error{
+    font-family: italic;
+    color: red;
+}
