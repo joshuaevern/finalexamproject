@@ -66,8 +66,8 @@ footer {
     display: block;
     text-align: center;
     padding: 5px;
-    color:black;
-    margin-top: 100px;
+    background-color:blue;
+    margin-top: 300px;
     display: block; 
     text-align: center;
 }
